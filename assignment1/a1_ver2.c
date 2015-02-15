@@ -77,7 +77,7 @@ int main(int argc, char **argv)
 	}while(win==0);
 	
 	if (win ==1)
-		printf(" CONGRATULATIONS !!!. YOU HAVE SHOT ALL THE SHIPS");
+		printf("\x1b[34m"" CONGRATULATIONS !!!. YOU HAVE SHOT ALL THE SHIPS""\x1b[0m");
 	
 	
 	return 0;		
