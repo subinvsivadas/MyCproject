@@ -26,10 +26,13 @@
 
 int main(int argc, char **argv)
 {
-	int array[8];
+	int a=5,b=3,c;
+	c=a ++ <b<<1&&b;
+	if (c==a/2)
+		a&=b;
+
+	printf("a = %d \nb = %d\nc = %d",a,b,c);
 	
-	printf("write down the array of numbers \n");
-	getchar();
 	return 0;
 }
 
